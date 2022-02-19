@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAA8FFB27C10B9300894C4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA8FFA27C10B9300894C4D /* AppDelegate.swift */; };
+		FAAA8FFD27C10B9300894C4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA8FFC27C10B9300894C4D /* SceneDelegate.swift */; };
+		FAAA8FFF27C10B9300894C4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA8FFE27C10B9300894C4D /* ViewController.swift */; };
+		FAAA900227C10B9300894C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAA900027C10B9300894C4D /* Main.storyboard */; };
+		FAAA900427C10B9700894C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAA900327C10B9700894C4D /* Assets.xcassets */; };
+		FAAA900727C10B9700894C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAA900527C10B9700894C4D /* LaunchScreen.storyboard */; };
+		FAAA901227C10B9800894C4D /* RGB_HEX_ConvertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA901127C10B9800894C4D /* RGB_HEX_ConvertTests.swift */; };
+		FAAA901C27C10B9800894C4D /* RGB_HEX_ConvertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA901B27C10B9800894C4D /* RGB_HEX_ConvertUITests.swift */; };
+		FAAA901E27C10B9800894C4D /* RGB_HEX_ConvertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA901D27C10B9800894C4D /* RGB_HEX_ConvertUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAAA900E27C10B9800894C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAAA8FEF27C10B9300894C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAA8FF627C10B9300894C4D;
+			remoteInfo = "RGB-HEX-Convert";
+		};
+		FAAA901827C10B9800894C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAAA8FEF27C10B9300894C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAA8FF627C10B9300894C4D;
+			remoteInfo = "RGB-HEX-Convert";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAAA8FF727C10B9300894C4D /* RGB-HEX-Convert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RGB-HEX-Convert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAA8FFA27C10B9300894C4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAAA8FFC27C10B9300894C4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAAA8FFE27C10B9300894C4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAAA900127C10B9300894C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAAA900327C10B9700894C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAAA900627C10B9700894C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAAA900827C10B9700894C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAA900D27C10B9800894C4D /* RGB-HEX-ConvertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RGB-HEX-ConvertTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAA901127C10B9800894C4D /* RGB_HEX_ConvertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB_HEX_ConvertTests.swift; sourceTree = "<group>"; };
+		FAAA901727C10B9800894C4D /* RGB-HEX-ConvertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RGB-HEX-ConvertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAA901B27C10B9800894C4D /* RGB_HEX_ConvertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB_HEX_ConvertUITests.swift; sourceTree = "<group>"; };
+		FAAA901D27C10B9800894C4D /* RGB_HEX_ConvertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB_HEX_ConvertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAA8FF427C10B9300894C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAA900A27C10B9800894C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAA901427C10B9800894C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAA8FEE27C10B9300894C4D = {
+			isa = PBXGroup;
+			children = (
+				FAAA8FF927C10B9300894C4D /* RGB-HEX-Convert */,
+				FAAA901027C10B9800894C4D /* RGB-HEX-ConvertTests */,
+				FAAA901A27C10B9800894C4D /* RGB-HEX-ConvertUITests */,
+				FAAA8FF827C10B9300894C4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAA8FF827C10B9300894C4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA8FF727C10B9300894C4D /* RGB-HEX-Convert.app */,
+				FAAA900D27C10B9800894C4D /* RGB-HEX-ConvertTests.xctest */,
+				FAAA901727C10B9800894C4D /* RGB-HEX-ConvertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAA8FF927C10B9300894C4D /* RGB-HEX-Convert */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA8FFA27C10B9300894C4D /* AppDelegate.swift */,
+				FAAA8FFC27C10B9300894C4D /* SceneDelegate.swift */,
+				FAAA8FFE27C10B9300894C4D /* ViewController.swift */,
+				FAAA900027C10B9300894C4D /* Main.storyboard */,
+				FAAA900327C10B9700894C4D /* Assets.xcassets */,
+				FAAA900527C10B9700894C4D /* LaunchScreen.storyboard */,
+				FAAA900827C10B9700894C4D /* Info.plist */,
+			);
+			path = "RGB-HEX-Convert";
+			sourceTree = "<group>";
+		};
+		FAAA901027C10B9800894C4D /* RGB-HEX-ConvertTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA901127C10B9800894C4D /* RGB_HEX_ConvertTests.swift */,
+			);
+			path = "RGB-HEX-ConvertTests";
+			sourceTree = "<group>";
+		};
+		FAAA901A27C10B9800894C4D /* RGB-HEX-ConvertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA901B27C10B9800894C4D /* RGB_HEX_ConvertUITests.swift */,
+				FAAA901D27C10B9800894C4D /* RGB_HEX_ConvertUITestsLaunchTests.swift */,
+			);
+			path = "RGB-HEX-ConvertUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAA8FF627C10B9300894C4D /* RGB-HEX-Convert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAA902127C10B9800894C4D /* Build configuration list for PBXNativeTarget "RGB-HEX-Convert" */;
+			buildPhases = (
+				FAAA8FF327C10B9300894C4D /* Sources */,
+				FAAA8FF427C10B9300894C4D /* Frameworks */,
+				FAAA8FF527C10B9300894C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RGB-HEX-Convert";
+			productName = "RGB-HEX-Convert";
+			productReference = FAAA8FF727C10B9300894C4D /* RGB-HEX-Convert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAAA900C27C10B9800894C4D /* RGB-HEX-ConvertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAA902427C10B9800894C4D /* Build configuration list for PBXNativeTarget "RGB-HEX-ConvertTests" */;
+			buildPhases = (
+				FAAA900927C10B9800894C4D /* Sources */,
+				FAAA900A27C10B9800894C4D /* Frameworks */,
+				FAAA900B27C10B9800894C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAA900F27C10B9800894C4D /* PBXTargetDependency */,
+			);
+			name = "RGB-HEX-ConvertTests";
+			productName = "RGB-HEX-ConvertTests";
+			productReference = FAAA900D27C10B9800894C4D /* RGB-HEX-ConvertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAAA901627C10B9800894C4D /* RGB-HEX-ConvertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAA902727C10B9800894C4D /* Build configuration list for PBXNativeTarget "RGB-HEX-ConvertUITests" */;
+			buildPhases = (
+				FAAA901327C10B9800894C4D /* Sources */,
+				FAAA901427C10B9800894C4D /* Frameworks */,
+				FAAA901527C10B9800894C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAA901927C10B9800894C4D /* PBXTargetDependency */,
+			);
+			name = "RGB-HEX-ConvertUITests";
+			productName = "RGB-HEX-ConvertUITests";
+			productReference = FAAA901727C10B9800894C4D /* RGB-HEX-ConvertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAA8FEF27C10B9300894C4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FAAA8FF627C10B9300894C4D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FAAA900C27C10B9800894C4D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FAAA8FF627C10B9300894C4D;
+					};
+					FAAA901627C10B9800894C4D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FAAA8FF627C10B9300894C4D;
+					};
+				};
+			};
+			buildConfigurationList = FAAA8FF227C10B9300894C4D /* Build configuration list for PBXProject "RGB-HEX-Convert" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAAA8FEE27C10B9300894C4D;
+			productRefGroup = FAAA8FF827C10B9300894C4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAA8FF627C10B9300894C4D /* RGB-HEX-Convert */,
+				FAAA900C27C10B9800894C4D /* RGB-HEX-ConvertTests */,
+				FAAA901627C10B9800894C4D /* RGB-HEX-ConvertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAAA8FF527C10B9300894C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAA900727C10B9700894C4D /* LaunchScreen.storyboard in Resources */,
+				FAAA900427C10B9700894C4D /* Assets.xcassets in Resources */,
+				FAAA900227C10B9300894C4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAA900B27C10B9800894C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAA901527C10B9800894C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAA8FF327C10B9300894C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAA8FFF27C10B9300894C4D /* ViewController.swift in Sources */,
+				FAAA8FFB27C10B9300894C4D /* AppDelegate.swift in Sources */,
+				FAAA8FFD27C10B9300894C4D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAA900927C10B9800894C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAA901227C10B9800894C4D /* RGB_HEX_ConvertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAA901327C10B9800894C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAA901E27C10B9800894C4D /* RGB_HEX_ConvertUITestsLaunchTests.swift in Sources */,
+				FAAA901C27C10B9800894C4D /* RGB_HEX_ConvertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAAA900F27C10B9800894C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAA8FF627C10B9300894C4D /* RGB-HEX-Convert */;
+			targetProxy = FAAA900E27C10B9800894C4D /* PBXContainerItemProxy */;
+		};
+		FAAA901927C10B9800894C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAA8FF627C10B9300894C4D /* RGB-HEX-Convert */;
+			targetProxy = FAAA901827C10B9800894C4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAAA900027C10B9300894C4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAA900127C10B9300894C4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAAA900527C10B9700894C4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAA900627C10B9700894C4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAAA901F27C10B9800894C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAAA902027C10B9800894C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAAA902227C10B9800894C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RGB-HEX-Convert/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.RGB-HEX-Convert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAAA902327C10B9800894C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RGB-HEX-Convert/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.RGB-HEX-Convert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAAA902527C10B9800894C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.RGB-HEX-ConvertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGB-HEX-Convert.app/RGB-HEX-Convert";
+			};
+			name = Debug;
+		};
+		FAAA902627C10B9800894C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.RGB-HEX-ConvertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGB-HEX-Convert.app/RGB-HEX-Convert";
+			};
+			name = Release;
+		};
+		FAAA902827C10B9800894C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.RGB-HEX-ConvertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RGB-HEX-Convert";
+			};
+			name = Debug;
+		};
+		FAAA902927C10B9800894C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mustafakilinc.RGB-HEX-ConvertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RGB-HEX-Convert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAA8FF227C10B9300894C4D /* Build configuration list for PBXProject "RGB-HEX-Convert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAA901F27C10B9800894C4D /* Debug */,
+				FAAA902027C10B9800894C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAA902127C10B9800894C4D /* Build configuration list for PBXNativeTarget "RGB-HEX-Convert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAA902227C10B9800894C4D /* Debug */,
+				FAAA902327C10B9800894C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAA902427C10B9800894C4D /* Build configuration list for PBXNativeTarget "RGB-HEX-ConvertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAA902527C10B9800894C4D /* Debug */,
+				FAAA902627C10B9800894C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAA902727C10B9800894C4D /* Build configuration list for PBXNativeTarget "RGB-HEX-ConvertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAA902827C10B9800894C4D /* Debug */,
+				FAAA902927C10B9800894C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAAA8FEF27C10B9300894C4D /* Project object */;
+}
