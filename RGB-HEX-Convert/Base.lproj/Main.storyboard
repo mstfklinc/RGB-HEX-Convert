@@ -26,6 +26,9 @@
                                     <segment title="RGB - HEX"/>
                                     <segment title="HEX - RGB"/>
                                 </segments>
+                                <connections>
+                                    <action selector="segmentChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="0zo-Hf-gJh"/>
+                                </connections>
                             </segmentedControl>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kırmızı - Red" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="foA-WJ-nt0">
                                 <rect key="frame" x="66" y="144" width="282" height="34"/>
@@ -72,7 +75,10 @@
                                     <constraint firstAttribute="width" constant="282" id="mWX-a5-60s"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="RGB -HEX Convert"/>
+                                <buttonConfiguration key="configuration" style="plain" title="RGB - HEX Convert"/>
+                                <connections>
+                                    <action selector="btnConvertClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GgG-Ig-TV0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seçilen Renk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ivp-Uk-4Z1">
                                 <rect key="frame" x="66" y="585" width="282" height="40"/>
@@ -128,6 +134,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nW2-AN-sqY" secondAttribute="trailing" constant="66" id="zAs-aV-c7P"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnConvert" destination="EuD-XD-zp6" id="LoC-4N-Q02"/>
+                        <outlet property="lblResult" destination="CXz-Oo-q8t" id="cme-4M-Vcn"/>
+                        <outlet property="lblSelectedColor" destination="Ivp-Uk-4Z1" id="Nvv-qp-tuC"/>
+                        <outlet property="txtBlue" destination="dD3-bS-2Qd" id="z31-CV-96C"/>
+                        <outlet property="txtGreen" destination="SZL-P4-8mR" id="UBY-Gj-ODI"/>
+                        <outlet property="txtRed" destination="foA-WJ-nt0" id="njd-Qu-3po"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
